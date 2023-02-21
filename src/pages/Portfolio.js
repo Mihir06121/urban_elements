@@ -1,5 +1,6 @@
+import { Link } from "react-router-dom"
 import Footer from "../components/Footer"
-
+import proj_1_1 from "../assets/proj_1/proj_1_1.jpg"
 const Portfolio = () => {
     return (
         <div className="">
@@ -17,45 +18,16 @@ const Portfolio = () => {
                 <section className="proj-cards-wrapper">
                 <div className="proj-card-grid-space">
                     <div className="num">01</div>
-                    <a className="proj-card shadow" href="https://codetheweb.blog/2017/10/06/html-syntax/" 
-                    style={{backgroundImage: "url(https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=1500&url=https://codetheweb.blog/assets/img/posts/html-syntax/cover.jpg)"}}>
+                    <Link className="proj-card shadow" to="/gallery" 
+                    style={{backgroundImage: `url(${proj_1_1})`}}>
                     <div>
-                        <h1>HTML Syntax</h1>
-                        <p>The syntax of a language is how it works. How to actually write it. Learn HTML syntax…</p>
-                        <div className="date">6 Oct 2017</div>
+                        <h1 className="project_head">Luxurious Brown</h1>
+                        <p></p>
                         <div className="proj-tags">
-                        <div className="proj-tag">HTML</div>
+                        {/* <div className="proj-tag">HTML</div> */}
                         </div>
                     </div>
-                    </a>
-                </div>
-                <div className="proj-card-grid-space">
-                    <div className="num">02</div>
-                    <a className="proj-card shadow" href="https://codetheweb.blog/2017/10/09/basic-types-of-html-proj-tags/" 
-                    style={{backgroundImage: "url(https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=1500&url=https://codetheweb.blog/assets/img/posts/html-syntax/cover.jpg)"}}>
-                    <div>
-                        <h1>Basic types of HTML proj-tags</h1>
-                        <p>Learn about some of the most common HTML proj-tags…</p>
-                        <div className="date">9 Oct 2017</div>
-                        <div className="proj-tags">
-                        <div className="proj-tag">HTML</div>
-                        </div>
-                    </div>
-                    </a>
-                </div>
-                <div className="proj-card-grid-space">
-                    <div className="num">03</div>
-                    <a className="proj-card shadow" href="https://codetheweb.blog/2017/10/14/links-images-about-file-paths/"  
-                    style={{backgroundImage: "url(https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=1500&url=https://codetheweb.blog/assets/img/posts/html-syntax/cover.jpg)"}}>
-                    <div>
-                        <h1>Links, images and about file paths</h1>
-                        <p>Learn how to use links and images along with file paths…</p>
-                        <div className="date">14 Oct 2017</div>
-                        <div className="proj-tags">
-                        <div className="proj-tag">HTML</div>
-                        </div>
-                    </div>
-                    </a>
+                    </Link>
                 </div>
                 </section>
             </div>

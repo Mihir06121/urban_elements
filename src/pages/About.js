@@ -26,13 +26,16 @@ const About = () => {
                     </div>
                 </div>
             </div>
+            <div data-aos="flip-left" className="container-fluid">
+              <hr className="mx-auto col-md-6 col-10" style={{padding: '0.1rem'}}/>
+            </div>
             <div>
-                <div className="">
-                    <p className="fs-3 text-center">OUR TEAM</p>
-                </div>
-                <div className="py-3 py-md-5">
+              <div className="" data-aos="fade-up" data-aos-delay="300">
+                  <p className="display-4 text-center">OUR TEAM</p>
+              </div>
+                <div className="container-fluid py-3 py-md-5">
                   <div className="d-flex justify-content-center row row-cols-1 row-cols-md-3 g-4">
-                    <div className="col">
+                    <div className="col" data-aos="fade-up" data-aos-delay="400">
                       <div className="card h-100 border-0 rounded-lg p-2" style={{boxShadow: '0px 10px 20px #664229'}}>
                         <img src="..." className="card-img-top" alt="Avinash Dhavan"/>
                         <div className="card-body">
@@ -45,7 +48,7 @@ const About = () => {
                         </div>
                       </div>
                     </div>
-                    <div className="col">
+                    <div className="col" data-aos="fade-up" data-aos-delay="500">
                       <div className="card h-100 border-0 rounded-lg p-2" style={{boxShadow: '0px 10px 20px #664229'}}>
                         <img src="..." className="card-img-top" alt="Khyati Shah"/>
                         <div className="card-body">

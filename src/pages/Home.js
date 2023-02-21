@@ -27,7 +27,7 @@ const Home = () => {
         </div>
       </div>
       <div data-aos="flip-left">
-        <hr className="mx-auto col-6" style={{padding: '0.1rem'}}/>
+              <hr className="mx-auto col-md-6 col-10" style={{padding: '0.1rem'}}/>
       </div>
       <div className="py-3 py-md-5">
         <div className="" data-aos="fade-up" data-aos-delay="500">
