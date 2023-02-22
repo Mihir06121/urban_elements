@@ -69,7 +69,7 @@ export default function HeaderNav(props) {
             className='p-2 p-sm-3'
             sx={{  display: 'flex', alignItems: 'center', justifyContent: "center", color: '#664229' }}
           >
-            <img className='card-img rounded-circle' src={UE_Logo} alt="Logo" style={{height: "15%", width: '15%'}} />
+             <Link to="/" ><img className='card-img rounded-circle' src={UE_Logo} alt="Logo" style={{height: "15%", width: '15%'}} /></Link>
             {/* <span className='px-3'>Urban Elements</span> */}
           </Typography>
         <Divider />
@@ -104,9 +104,18 @@ export default function HeaderNav(props) {
             component="div"
             align='center'
             className='p-2 p-sm-3'
-            sx={{ flexGrow: 1, display: 'flex', alignItems: 'center', justifyContent: "center", color: '#664229' }}
+            sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' }, alignItems: 'center', justifyContent: "center", color: '#664229' }}
           >
-            <Link to="/" style={{textDecoration: 'none'}}><span className=' px-3'><strong>UE</strong></span></Link>
+            <Link to="/" style={{textDecoration: 'none'}}><span className='px-3'><strong>URBAN ELEMENTS</strong></span></Link>
+          </Typography>
+          <Typography
+            variant="h4"
+            component="div"
+            align='center'
+            className='p-2 p-sm-3'
+            sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' }, alignItems: 'center', justifyContent: "center", color: '#664229' }}
+          >
+            <Link to="/" style={{textDecoration: 'none'}}><span className='px-3'><strong>UE</strong></span></Link>
           </Typography>
           <Box sx={{ display: { xs: 'none', md: 'flex' }, justifyContent: 'center' }}>
             {navItems.map((item) => (

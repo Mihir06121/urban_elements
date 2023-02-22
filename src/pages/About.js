@@ -40,6 +40,7 @@ const About = () => {
                         <img src="..." className="card-img-top" alt="Avinash Dhavan"/>
                         <div className="card-body">
                           <h3 className="card-title fs-2 text-center"><b>Avinash Dhavan</b></h3>
+                          <hr />
                           <span className="card-text fs-4">Starting up as an interior designer has it own perks. 
                           You get to meet various people with their creativity and which helps us with the 
                           growth, we believe in quality over quantity so that our customer satisfaction 
@@ -53,6 +54,7 @@ const About = () => {
                         <img src="..." className="card-img-top" alt="Khyati Shah"/>
                         <div className="card-body">
                           <h3 className="card-title fs-2 text-center"><b>Khyati Shah</b></h3>
+                          <hr />
                           <span className="card-text fs-4 text-justify">Managing and handling project is a part of work which eventually 
                           leads to getting in clients and more references. Our office environment is such that no 
                           employee has to worry about their leaves, any emergencies and their problems because we 

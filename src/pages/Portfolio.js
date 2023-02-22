@@ -9,7 +9,7 @@ const Portfolio = () => {
                     <div className="text-center" data-aos="fade-up">
                         <span className="display-1">Portfolio</span>
                         <div className="d-flex justify-content-end" data-aos="fade-right" data-aos-delay="300">
-                            <p className="m-0">- Designing spaces that tell your story.</p>
+                            {/* <p className="m-0">- Designing spaces that tell your story.</p> */}
                         </div>
                     </div>
                 </div>
