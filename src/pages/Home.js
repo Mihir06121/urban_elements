@@ -11,7 +11,7 @@ const Home = () => {
           <div className="text-center" data-aos="fade-up" data-aos-delay="800">
             <img className="rounded-circle" src={home_banner_logo} alt="Urban Elements Logo" style={{ height: '25vh'}} />
           <h1 className="display-1 text-center" data-aos="fade-up" data-aos-delay="1000">
-            <strong style={{color: '#d7b38c',  textShadow: '0px 2px 50px #000000'}}>Urban Elements</strong>
+            <strong style={{color: '#d7b38c',  textShadow: '0px 2px 20px black'}}>Urban Elements</strong>
           </h1>
           </div>
         </div>
@@ -43,12 +43,12 @@ const Home = () => {
               </div>
             </div>
             <div className="col-md-4 py-5" data-aos="fade-right" data-aos-delay="300">
-              <h5 className="text-center">
-                Ubarn elements comes from urbanisation of your home with better quality and better standard of living. 
+              <h4 className="">
+                Urban elements comes from urbanisation of your home with better quality and better standard of living. 
                 To Recreate the art and shaping cities and towns by giving them form and character. 
                 We are a simple unit and we look forward to be combined into more complex whole o an urban quarter or city. 
                 We make sure to give the best cost with the best quality of furniture, beautiful designs that are breathetaking to look at and the best premium lifestyle. 
-              </h5>
+              </h4>
             </div>
           </div>
         </div>

@@ -1,16 +1,15 @@
 @font-face {
-  font-family: "Austen-Regular";   /*Can be any text*/
-  src: local("Austen-Regular"),
-    url("./components/fonts/Austen-Regular.ttf") format("truetype");
+  font-family: "Playfair Display";   /*Can be any text*/
+  src: local("Playfair Display"),
+    url("https://fonts.googleapis.com/css?family=Playfair Display") format("truetype");
     font-weight: bolder;
     font-style: normal;
 }
 
 * {
-  font-family: 'Austen-Regular' !important;
+  font-family: 'Playfair Display' !important;
   font-style: normal;
-  text-align: inherit;
-  font-weight: bolder !important;
+  text-align: justify;
   color: #664229;
 }
 
@@ -56,7 +55,7 @@
 .home_banner_div {
   position: relative;
   height: 100vh;
-  background-image: url("./assets/UE.png");
+  background-image: url("./assets/intro_bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

@@ -67,10 +67,8 @@ export default function HeaderNav(props) {
             component="div"
             align='center'
             className='p-2 p-sm-3'
-            sx={{  display: 'flex', alignItems: 'center', justifyContent: "center", color: '#664229' }}
           >
              <Link to="/" ><img className='card-img rounded-circle' src={UE_Logo} alt="Logo" style={{height: "15%", width: '15%'}} /></Link>
-            {/* <span className='px-3'>Urban Elements</span> */}
           </Typography>
         <Divider />
         <List>
@@ -123,10 +121,10 @@ export default function HeaderNav(props) {
                 <Link style={{textDecoration: 'none'}} to={item === "home" ? `/` : `${item}`} >
                 {pathname === `/${item}` ? 
                 <div className='ue_btn ue_btn_active btn btn-sm animated-button-active thar-three px-3 px-lg-4 py-2' style={{color: '#664229', margin:0}}>
-                  <strong>{item}</strong>
+                  {item}
                 </div> : 
                 <div className='ue_btn btn btn-sm animated-button thar-three px-3 px-lg-4 py-2' style={{color: '#664229', margin:0}}>
-                  <strong>{item}</strong>
+                  {item}
                 </div>}
                   </Link>
               </Button>

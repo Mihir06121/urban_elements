@@ -47,7 +47,7 @@ const Contact = () => {
             <div className="">
                 <div className="d-flex justify-content-center align-items-center py-2 py-md-5" style={{backgroundColor: '#d7b38c', height: '50vh'}}>
                     <div className="text-center" data-aos="fade-up">
-                        <span className="display-1">Contact US</span>
+                        <span className="display-1"><b>Contact Us</b></span>
                         <div className="d-flex justify-content-end" data-aos="fade-right" data-aos-delay="300">
                             {/* <p className="m-0">- Designing spaces that tell your story.</p> */}
                         </div>

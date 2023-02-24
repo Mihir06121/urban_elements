@@ -7,7 +7,7 @@ const About = () => {
                 <div className="d-flex justify-content-center align-items-center py-2 py-md-5" 
                 data-aos="fade-in" data-aos-duration="2000" style={{backgroundColor: '#d7b38c', height: '50vh'}}>
                     <div className="text-center" data-aos="fade-up" data-aos-delay="200">
-                        <span className="display-1">ABOUT US</span>
+                        <span className="display-1"><b>ABOUT US</b></span>
                         <div className="d-flex justify-content-end" data-aos="fade-right" data-aos-delay="500">
                             <p className="m-0">- Designing spaces that tell your story.</p>
                         </div>
