@@ -552,3 +552,42 @@
       left: 0.5rem;
       color: #664229;
     }
+
+.about_slide_div1 {
+  position: relative;
+  height: 70vh;
+  background-image: url("./assets/proj_1/proj_1_3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.about_slide_div2 {
+  position: relative;
+  height: 70vh;
+  background-image: url("./assets/proj_1/proj_1_4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.about_slide_div3 {
+  position: relative;
+  height: 70vh;
+  background-image: url("./assets/proj_1/proj_1_6.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.about_slide_div4 {
+  position: relative;
+  height: 70vh;
+  background-image: url("./assets/proj_1/proj_1_10.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.bg_body {
+	background: linear-gradient(0deg, white, #d7b38c);
+	background-size: 100% 100%;
+	height: 50vh;
+}

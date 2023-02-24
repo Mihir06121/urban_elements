@@ -95,7 +95,7 @@ export default function HeaderNav(props) {
     <>
       <CssBaseline/>
       <HideOnScroll sx={{background: 'transparent', opacity: '0.5'}} {...props}>
-      <AppBar data-aos="fade-in" data-aos-delay="300" component="nav" sx={{backgroundColor: 'whitesmoke'}}>
+      <AppBar component="nav" sx={{backgroundColor: 'whitesmoke'}}>
         <Toolbar>
           <Typography
             variant="h4"

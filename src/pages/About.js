@@ -4,8 +4,7 @@ const About = () => {
     return (
         <div className="">
             <div className="">
-                <div className="d-flex justify-content-center align-items-center py-2 py-md-5" 
-                data-aos="fade-in" data-aos-duration="2000" style={{backgroundColor: '#d7b38c', height: '50vh'}}>
+                <div className="d-flex justify-content-center align-items-center py-2 py-md-5 bg_body">
                     <div className="text-center" data-aos="fade-up" data-aos-delay="200">
                         <span className="display-1"><b>ABOUT US</b></span>
                         <div className="d-flex justify-content-end" data-aos="fade-right" data-aos-delay="500">
@@ -16,6 +15,7 @@ const About = () => {
             </div>
             <div>
                 <div className="py-3 py-md-5">
+                    <hr className="ms-auto col-10 col-md-6" data-aos="fade-up" data-aos-delay="300" style={{padding: '0.1rem'}}/>
                     <div className="mx-auto col-10 col-md-6" data-aos="fade-up" data-aos-delay="500">
                         <p className="fs-4">
                             Our goal is to achieve the sub par standard of living and making our home as beautiful 
@@ -24,8 +24,42 @@ const About = () => {
                             sites and hospitality. 
                         </p>
                     </div>
+                    <hr className="col-10 col-md-6" data-aos="fade-up" data-aos-delay="600" style={{padding: '0.1rem'}}/>
                 </div>
             </div>
+            <div>
+              <div id="carouselExampleIndicators" className="carousel slide my-5" data-bs-ride="carousel">
+                <div className="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                </div>
+                <div className="carousel-inner" data-aos="fade-up"data-aos-delay="200" >
+                  <div className="carousel-item about_slide_div1 active">
+                    {/* <img src={proj_1_3} className="d-block w-100" alt="..."/> */}
+                  </div>
+                  <div className="carousel-item about_slide_div2">
+                    {/* <img src={proj_1_4} className="d-block w-100" alt="..."/> */}
+                  </div>
+                  <div className="carousel-item about_slide_div3">
+                    {/* <img src={proj_1_6} className="d-block w-100" alt="..."/> */}
+                  </div>
+                  <div className="carousel-item about_slide_div4">
+                    {/* <img src={proj_1_10} className="d-block w-100" alt="..."/> */}
+                  </div>
+                </div>
+                <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span className="visually-hidden">Previous</span>
+                </button>
+                <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span className="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+
             <div data-aos="flip-left" className="container-fluid">
               <hr className="mx-auto col-md-6 col-10" style={{padding: '0.1rem'}}/>
             </div>

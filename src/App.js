@@ -4,7 +4,6 @@ import HeaderNav from "./components/Navbar"
 import Routes from "./Routes";
 import './App.css'
 import AOS from 'aos'
-import "./components/fonts/Austen-Regular.ttf"
 
 function App() {
 
