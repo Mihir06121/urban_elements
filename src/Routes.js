@@ -5,8 +5,6 @@ import Contact from "./pages/Contact";
 import Porfolio from "./pages/Portfolio";
 import Gallery from "./pages/Gallery";
 // import { ParallaxProvider } from 'react-scroll-parallax'
-import { useEffect } from "react";
-import { useLocation } from "react-router-dom";
 
 const NavRoutes = () => (
   // <ParallaxProvider scrollAxis='vertical'>
