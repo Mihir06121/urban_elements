@@ -1,7 +1,7 @@
 @font-face {
   font-family: "Playfair Display";   /*Can be any text*/
   src: local("Playfair Display"),
-    url("https://fonts.googleapis.com/css?family=Playfair Display") format("truetype");
+    url("https://fonts.googleapis.com/css?family=Playfair Display") format("woff2");
     font-weight: bolder;
     font-style: normal;
 }
@@ -11,6 +11,7 @@
   font-style: normal;
   text-align: justify;
   color: #664229;
+  scroll-behavior: auto !important;
 }
 
 .App {

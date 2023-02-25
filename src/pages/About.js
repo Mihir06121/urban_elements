@@ -4,8 +4,8 @@ const About = () => {
     return (
         <div className="">
             <div className="">
-                <div className="d-flex justify-content-center align-items-center py-2 py-md-5 bg_body">
-                    <div className="text-center" data-aos="fade-up" data-aos-delay="200">
+                <div className="d-flex justify-content-center align-items-center py-2 py-md-5 bg_body" data-aos="fade-down" data-aos-delay="200">
+                    <div className="text-center" data-aos="fade-down" data-aos-delay="400" data-aos-duration="200" >
                         <span className="display-1"><b>ABOUT US</b></span>
                         <div className="d-flex justify-content-end" data-aos="fade-right" data-aos-delay="500">
                             <p className="m-0">- Designing spaces that tell your story.</p>
@@ -71,7 +71,7 @@ const About = () => {
                   <div className="d-flex justify-content-center row row-cols-1 row-cols-md-3 g-4">
                     <div className="col" data-aos="fade-up" data-aos-delay="400">
                       <div className="card h-100 border-0 rounded-lg p-2" style={{boxShadow: '0px 10px 20px #664229'}}>
-                        <img src="..." className="card-img-top" alt="Avinash Dhavan"/>
+                        {/* <img src="..." className="card-img-top" alt="Avinash Dhavan"/> */}
                         <div className="card-body">
                           <h3 className="card-title fs-2 text-center"><b>Avinash Dhavan</b></h3>
                           <hr />
@@ -85,7 +85,7 @@ const About = () => {
                     </div>
                     <div className="col" data-aos="fade-up" data-aos-delay="500">
                       <div className="card h-100 border-0 rounded-lg p-2" style={{boxShadow: '0px 10px 20px #664229'}}>
-                        <img src="..." className="card-img-top" alt="Khyati Shah"/>
+                        {/* <img src="..." className="card-img-top" alt="Khyati Shah"/> */}
                         <div className="card-body">
                           <h3 className="card-title fs-2 text-center"><b>Khyati Shah</b></h3>
                           <hr />

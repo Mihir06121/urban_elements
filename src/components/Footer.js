@@ -17,7 +17,7 @@ const Footer = () => {
                 </div>
             </div>
             <hr className="mx-5" style={{backgroundColor: '#664229'}}/>
-            <div >
+            <div className="text-center" >
                 <span>Copyright © 2023 urban elements</span>
             </div>
         </div>

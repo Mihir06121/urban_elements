@@ -10,7 +10,7 @@ const Home = () => {
         <div className="home_banner_text">
           <div className="text-center" data-aos="fade-up" data-aos-delay="800">
             <img className="rounded-circle" src={home_banner_logo} alt="Urban Elements Logo" style={{ height: '25vh'}} />
-          <h1 className="display-1 text-center" data-aos="fade-up" data-aos-delay="1000">
+          <h1 className="display-1 text-center py-3 py-md-5" data-aos="fade-up" data-aos-delay="1000">
             <strong style={{color: '#d7b38c',  textShadow: '0px 2px 20px black'}}>Urban Elements</strong>
           </h1>
           </div>

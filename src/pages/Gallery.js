@@ -2,13 +2,12 @@ import Footer from "../components/Footer"
 
 const Gallery = () => {
     return (
-        <div className="">
+        <div className="" id="gallery">
             <div className="">
-                <div className="d-flex justify-content-center align-items-center py-2 py-md-5" style={{backgroundColor: '#d7b38c', height: '50vh'}}>
-                    <div className="text-center" data-aos="fade-up">
+                <div className="d-flex justify-content-center align-items-center py-2 py-md-5 bg_body" data-aos="fade-down" data-aos-delay="200">
+                    <div className="text-center" data-aos="fade-down" data-aos-delay="400" data-aos-duration="200" >
                         <span className="display-1"><b>Gallery</b></span>
-                        <div className="d-flex justify-content-end" data-aos="fade-right" data-aos-delay="300">
-                            {/* <p className="m-0">- Designing spaces that tell your story.</p> */}
+                        <div className="d-flex justify-content-end" data-aos="fade-right" data-aos-delay="500">
                         </div>
                     </div>
                 </div>
