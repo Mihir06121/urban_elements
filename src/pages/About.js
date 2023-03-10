@@ -1,4 +1,5 @@
 import Footer from "../components/Footer"
+import home_banner_logo from "../assets/ue_logo_sm.png"
 
 const About = () => {
     return (
@@ -61,7 +62,7 @@ const About = () => {
             </div>
 
             <div data-aos="flip-left" className="container-fluid">
-              <hr className="mx-auto col-md-6 col-10" style={{padding: '0.1rem'}}/>
+              <hr className="mx-auto col-md-8 col-10" style={{padding: '0.1rem'}}/>
             </div>
             <div>
               <div className="" data-aos="fade-up" data-aos-delay="300">
@@ -71,7 +72,6 @@ const About = () => {
                   <div className="d-flex justify-content-center row row-cols-1 row-cols-md-3 g-4">
                     <div className="col" data-aos="fade-up" data-aos-delay="400">
                       <div className="card h-100 border-0 rounded-lg p-2" style={{boxShadow: '0px 10px 20px #664229'}}>
-                        {/* <img src="..." className="card-img-top" alt="Avinash Dhavan"/> */}
                         <div className="card-body">
                           <h3 className="card-title fs-2 text-center"><b>Avinash Dhavan</b></h3>
                           <hr />
@@ -85,7 +85,6 @@ const About = () => {
                     </div>
                     <div className="col" data-aos="fade-up" data-aos-delay="500">
                       <div className="card h-100 border-0 rounded-lg p-2" style={{boxShadow: '0px 10px 20px #664229'}}>
-                        {/* <img src="..." className="card-img-top" alt="Khyati Shah"/> */}
                         <div className="card-body">
                           <h3 className="card-title fs-2 text-center"><b>Khyati Shah</b></h3>
                           <hr />
@@ -97,6 +96,77 @@ const About = () => {
                       </div>
                     </div>
                   </div>
+                </div>
+              </div>
+              <div data-aos="flip-left" className="container-fluid">
+                <hr className="mx-auto col-md-8 col-10" style={{padding: '0.1rem'}}/>
+              </div>
+              <div>
+                <div className="text-center py-5" data-aos="fade-up" >
+                    <span className="display-3"><b>Testimonals</b></span>
+                </div>
+                <div id="carouselExampleDark" className="carousel carousel-dark slide" data-bs-ride="carousel">
+                  <div className="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                  </div>
+                  <div className="carousel-inner">
+                    <div className="carousel-item active" data-bs-interval="10000">
+                      <div className="d-flex justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="200">
+                        <div className="p-5 col-md-8 col-10 container">
+                          <p className="text-center fs-1"><b>Bhavna Shah</b></p>
+                          <p className="text-center fs-4">The experience was amazing as you can clearly vision what you want for your house. 
+                          Save my time and gave me more clarity and customer service is amazing.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="carousel-item" data-bs-interval="2000">
+                      <div className="d-flex justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="200">
+                        <div className="p-5 col-md-8 col-10 container">
+                          <p className="text-center fs-1"><b>Gayatri Ahuja</b></p>
+                          <p className="text-center fs-4">From creating the perfect layout to finding pieces I absolutely loved, 
+                          my designer really took my space to the next level. I never dreamed my home could look – and feel – this good!</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="carousel-item">
+                      <div className="d-flex justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="200">
+                        <div className="p-5 col-md-8 col-10 container">
+                          <p className="text-center fs-1"><b>Vineeta Patel</b></p>
+                          <p className="text-center fs-4">This was super fun and easy! They were so helpful every step of the way. 
+                          I can’t wait to redo my room!</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="carousel-item">
+                      <div className="d-flex justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="200">
+                        <div className="p-5 col-md-8 col-10 container">
+                          <p className="text-center fs-1"><b>Nitin Gupta</b></p>
+                          <p className="text-center fs-4">We were certain about some pieces going in and not about others so it was 
+                          great to trouble shoot with someone. Great design came out and we are ready to go!</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="carousel-item">
+                      <div className="d-flex justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="200">
+                        <div className="p-5 col-md-8 col-10 container">
+                          <p className="text-center fs-1"><b>Dheeraj Patil</b></p>
+                          <p className="text-center fs-4">Overall great experience. Thank you for the help!</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span className="visually-hidden">Previous</span>
+                  </button>
+                  <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                    <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span className="visually-hidden">Next</span>
+                  </button>
                 </div>
               </div>
             <div>

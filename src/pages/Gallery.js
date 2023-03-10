@@ -29,7 +29,7 @@ const Gallery = () => {
                     <span className="d-flex justify-content-center display-2 m-0" style={{}}>
                         Luxurious-
                         <div className="d-flex">
-                            <span data-aos="fade-left" data-aos-delay="300"> B </span>
+                            <span className="" data-aos="fade-left" data-aos-delay="300"> B </span>
                             <span data-aos="fade-left" data-aos-delay="350"> r </span>
                             <span data-aos="fade-left" data-aos-delay="400"> o </span>
                             <span data-aos="fade-left" data-aos-delay="450"> w </span>
