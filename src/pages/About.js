@@ -1,5 +1,4 @@
 import Footer from "../components/Footer"
-import home_banner_logo from "../assets/ue_logo_sm.png"
 
 const About = () => {
     return (
